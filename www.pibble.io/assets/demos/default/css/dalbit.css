@@ -1,0 +1,169 @@
+/* 웹폰트 임포트 */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&amp;subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
+
+
+@font-face {
+    font-family: 'NotoThin';
+    font-style: normal;
+    font-weight: 100;
+    src: url(../fonts/noto/NotoSansKR-Thin.eot);
+    src: url(../fonts/noto/NotoSansKR-Thind41d.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/noto/NotoSansKR-Thin.woff) format('woff'),
+    url(../fonts/noto/NotoSansKR-Thin.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoLight';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/noto/NotoSansKR-Light.eot);
+    src: url(../fonts/noto/NotoSansKR-Lightd41d.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/noto/NotoSansKR-Light.woff) format('woff'),
+    url(../fonts/noto/NotoSansKR-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoDemi';
+    font-style: normal;
+    font-weight: 350;
+    src:  url(../fonts/noto/NotoSansKR-DemiLight.eot);
+    src: url(../fonts/noto/NotoSansKR-DemiLightd41d.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/noto/NotoSansKR-DemiLight.woff) format('woff'),
+    url(../fonts/noto/NotoSansKR-DemiLight.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoReg';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/noto/NotoSansKR-Regular.eot);
+    src: url(../fonts/noto/NotoSansKR-Regulard41d.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/noto/NotoSansKR-Regular.woff) format('woff'),
+    url(../fonts/noto/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoMed';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/noto/NotoSansKR-Medium.eot);
+    src: url(../fonts/noto/NotoSansKR-Mediumd41d.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/noto/NotoSansKR-Medium.woff) format('woff'),
+    url(../fonts/noto/NotoSansKR-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoBold';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/noto/NotoSansKR-Bold.eot);
+    src: url(../fonts/noto/NotoSansKR-Boldd41d.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/noto/NotoSansKR-Bold.woff) format('woff'),
+    url(../fonts/noto/NotoSansKR-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoBlack';
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/noto/NotoSansKR-Black.eot);
+    src: url(../fonts/noto/NotoSansKR-Blackd41d.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/noto/NotoSansKR-Black.woff) format('woff'),
+    url(../fonts/noto/NotoSansKR-Black.otf) format('opentype');
+}
+
+/* 기본 */
+.clearBoth {clear:both;padding:0;margin:0;}
+
+.floatLeft {float:left;}
+.floatRight {float:right;}
+
+.identColor1 {color:#005851 !important;}
+.identColor2 {color:#4bb000 !important;}
+.blueColor {color:#0019d6 !important;}
+
+.respImg {width:100%;}
+.outLine {border:1px solid #eee;}
+
+.mt0 {margin-top:0 !important;}
+.mt10 {margin-top:10px !important;}
+.mt20 {margin-top:20px !important;}
+.mt30 {margin-top:30px !important;}
+.mt40 {margin-top:40px !important;}
+.mt50 {margin-top:50px !important;}
+
+.mb0 {margin-bottom:0 !important;}
+.mb10 {margin-bottom:10px !important;}
+.mb20 {margin-bottom:20px !important;}
+.mb30 {margin-bottom:30px !important;}
+.mb40 {margin-bottom:40px !important;}
+.mb50 {margin-bottom:50px !important;}
+.mb80 {margin-bottom:80px !important;}
+
+.pt0 {padding-top:0 !important;}
+.pt10 {padding-top:10px !important;}
+.pt20 {padding-top:20px !important;}
+.pt30 {padding-top:30px !important;}
+.pt40 {padding-top:40px !important;}
+.pt50 {padding-top:50px !important;}
+
+.pb0 {padding-bottom:0 !important;}
+.pb10 {padding-bottom:10px !important;}
+.pb20 {padding-bottom:20px !important;}
+.pb30 {padding-bottom:30px !important;}
+.pb40 {padding-bottom:40px !important;}
+.pb50 {padding-bottom:50px !important;}
+
+.ml0 {margin-left:0 !important;}
+.ml5 {margin-left:5px !important;}
+.ml10 {margin-left:10px !important;}
+.ml20 {margin-left:20px !important;}
+.ml30 {margin-left:30px !important;}
+.ml40 {margin-left:40px !important;}
+.ml50 {margin-left:50px !important;}
+
+.mr0 {margin-right:0 !important;}
+.mr5 {margin-right:5px !important;}
+.mr10 {margin-right:10px !important;}
+.mr20 {margin-right:20px !important;}
+.mr30 {margin-right:30px !important;}
+.mr40 {margin-right:40px !important;}
+.mr50 {margin-right:50px !important;}
+
+.pl0 {padding-left:0 !important;}
+.pl10 {padding-left:10px !important;}
+.pl20 {padding-left:20px !important;}
+.pl30 {padding-left:30px !important;}
+.pl40 {padding-left:40px !important;}
+.pl50 {padding-left:50px !important;}
+
+.pr0 {padding-right:0 !important;}
+.pr10 {padding-right:10px !important;}
+.pr20 {padding-right:20px !important;}
+.pr30 {padding-right:30px !important;}
+.pr40 {padding-right:40px !important;}
+.pr50 {padding-right:50px !important;}
+
+.txtCenter {text-align:center !important;}
+.txtRight {text-align:right !important;}
+.txtLeft {text-align:left !important;}
+.txtJustify {text-align:justify !important;}
+
+.txtBold {font-family: 'Titillium Web','NotoBold', sans-serif;font-weight:700;}
+.txtSmall {font-size:0.8em !important;line-height:150%;}
+.txtBig {font-size:18px !important;}
+
+.txtBox {padding:20px;background:#f3f3f3;border:1px solid #eee;}
+
+.txtWhite{color:#fff !important;}
+.txtBlack{color:#000 !important;}
+.txtOrange {color:#f98d00 !important;}
+.txtBgreen {color:#00c1cd !important;}
+.txtViolet {color:#bc00cd !important;}
+.txtGreen {color:#3b9c00 !important;}
+.txtBlue {color:#005cce !important;}
+.txtRed{color:#ce2700 !important;}
+
+/* 추가 */
+table th {font-weight:normal !important;}
